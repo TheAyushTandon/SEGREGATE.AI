@@ -1,0 +1,2 @@
+# SEGREGATE.AI
+This project is an AI-powered waste classification system that uses computer vision to detect and categorize waste into four categories using image input. It is designed to assist in automating the process of waste segregation by analyzing garbage images and classifying them using a deep learning model trained on various types of waste images.
