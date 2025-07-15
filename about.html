@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - SegregateAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">♻</div>
+                    <span>Segregate<span class="logo-accent">AI</span></span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="awareness.html" class="nav-link">Awareness</a></li>
+                    <li><a href="app.html" class="nav-link">App</a></li>
+                    <li><a href="team.html" class="nav-link">Team</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="awareness.html" class="mobile-link">Awareness</a>
+        <a href="app.html" class="mobile-link">App</a>
+        <a href="team.html" class="mobile-link">Team</a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="container">
+            <!-- Header -->
+            <div class="page-header">
+                <div class="page-icon">🧠</div>
+                <h1>About SegregateAI</h1>
+                <p>Revolutionizing waste management through artificial intelligence and making proper waste segregation accessible to everyone.</p>
+            </div>
+
+            <!-- Mission Section -->
+            <section class="mission-section">
+                <div class="card">
+                    <h2 class="text-green">Our Mission</h2>
+                    <p>To create a sustainable future by making waste segregation simple, accurate, and accessible through cutting-edge AI technology. We believe that proper waste management starts with correct categorization, and our app makes this process effortless for everyone.</p>
+                </div>
+            </section>
+
+            <!-- How It Works -->
+            <section class="how-it-works">
+                <h2 class="section-title">How SegregateAI Works</h2>
+                <div class="methods-grid">
+                    <div class="method-card">
+                        <div class="method-icon blue">📱</div>
+                        <h3 class="text-blue">Photo Recognition</h3>
+                        <p>Our advanced computer vision AI can identify waste items from photos taken with your phone's camera or uploaded from your gallery.</p>
+                        <ul>
+                            <li>Real-time camera analysis</li>
+                            <li>Upload existing photos</li>
+                            <li>High accuracy recognition</li>
+                            <li>Works in various lighting conditions</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <div class="method-icon purple">🧠</div>
+                        <h3 class="text-purple">Text Description</h3>
+                        <p>Simply describe your waste item in 10 words or less, and our natural language processing AI will categorize it accurately.</p>
+                        <ul>
+                            <li>Quick text input</li>
+                            <li>Natural language understanding</li>
+                            <li>Instant categorization</li>
+                            <li>Multiple language support</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Categories -->
+            <section class="categories">
+                <h2 class="section-title">Waste Categories</h2>
+                <div class="categories-grid">
+                    <div class="category-card green">
+                        <h3>Biodegradable</h3>
+                        <p>Organic waste that naturally decomposes</p>
+                        <ul>
+                            <li>Food scraps</li>
+                            <li>Garden waste</li>
+                            <li>Paper products</li>
+                            <li>Natural fibers</li>
+                        </ul>
+                    </div>
+                    <div class="category-card blue">
+                        <h3>Non-Biodegradable</h3>
+                        <p>Materials that don't decompose naturally</p>
+                        <ul>
+                            <li>Plastic items</li>
+                            <li>Glass containers</li>
+                            <li>Metal cans</li>
+                            <li>Synthetic materials</li>
+                        </ul>
+                    </div>
+                    <div class="category-card orange">
+                        <h3>Other Waste</h3>
+                        <p>Special handling required</p>
+                        <ul>
+                            <li>Electronic devices</li>
+                            <li>Batteries</li>
+                            <li>Medical waste</li>
+                            <li>Hazardous materials</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technology -->
+            <section class="technology">
+                <div class="card">
+                    <h2 class="tech-title">🌐 Technology Behind SegregateAI</h2>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <h3>Computer Vision</h3>
+                            <p>Advanced machine learning models trained on thousands of waste images to accurately identify and categorize different types of waste materials.</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>Natural Language Processing</h3>
+                            <p>Sophisticated text analysis algorithms that understand waste descriptions and provide accurate categorization based on material properties.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">♻</div>
+                        <span>Segregate<span class="logo-accent">AI</span></span>
+                    </a>
+                    <p>Making waste segregation simple and accessible through AI technology.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="awareness.html">Awareness</a></li>
+                        <li><a href="app.html">Download App</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Team</h3>
+                    <ul>
+                        <li><a href="team.html">Meet the Team</a></li>
+                        <li>Vedansh Gupta</li>
+                        <li>Saatvik Sharma</li>
+                        <li>Ayush Tandon</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📧</a>
+                        <a href="#" class="social-link">🐙</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SegregateAI. All rights reserved. Built with ❤️ for a sustainable future.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

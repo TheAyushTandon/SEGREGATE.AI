@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download App - SegregateAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">♻</div>
+                    <span>Segregate<span class="logo-accent">AI</span></span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="awareness.html" class="nav-link">Awareness</a></li>
+                    <li><a href="app.html" class="nav-link active">App</a></li>
+                    <li><a href="team.html" class="nav-link">Team</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="awareness.html" class="mobile-link">Awareness</a>
+        <a href="app.html" class="mobile-link">App</a>
+        <a href="team.html" class="mobile-link">Team</a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="page-content app-page">
+        <div class="container">
+            <!-- Header -->
+            <div class="page-header">
+                <div class="page-icon blue">📱</div>
+                <h1>Download SegregateAI</h1>
+                <p>Get the power of AI-driven waste segregation right in your pocket. Available for Android devices with more platforms coming soon.</p>
+            </div>
+
+            <!-- App Preview -->
+            <section class="app-preview">
+                <div class="preview-content">
+                    <div class="preview-image">
+                        <img src="app-preview.png" alt="SegregateAI App Interface" class="app-screenshot">
+                    </div>
+                    <div class="preview-details">
+                        <div class="badge">Now Available</div>
+                        <h2>SegregateAI Mobile App</h2>
+                        <p>Experience the future of waste management with our intuitive mobile application. Simply point, click, or describe - and let AI do the rest.</p>
+                        
+                        <div class="app-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">📷</span>
+                                <span>Real-time camera recognition</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">📝</span>
+                                <span>Text-based waste description</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">♻️</span>
+                                <span>3-category smart sorting</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">⚡</span>
+                                <span>Instant results</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🛡️</span>
+                                <span>100% offline functionality</span>
+                            </div>
+                        </div>
+
+                        <div class="download-section">
+                            <a href="https://we.tl/t-iaTU5SnbdL" target="_blank" class="btn btn-primary btn-large">
+                                📥 Download APK (v1.0)
+                            </a>
+                            <p class="download-note">Click to download from WeTransfer • Android APK file</p>
+                            <p class="download-warning">⚠️ Enable "Install from unknown sources" in your Android settings</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- App Features -->
+            <section class="detailed-features">
+                <h2 class="section-title">App Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card blue">
+                        <div class="feature-icon">📷</div>
+                        <h3>Photo Recognition</h3>
+                        <p>Advanced computer vision technology that can identify waste items from photos with high accuracy, even in challenging lighting conditions.</p>
+                    </div>
+                    <div class="feature-card green">
+                        <div class="feature-icon">📝</div>
+                        <h3>Text Input</h3>
+                        <p>Describe your waste item in simple words (10 words or less) and get instant categorization through natural language processing.</p>
+                    </div>
+                    <div class="feature-card purple">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Instant Results</h3>
+                        <p>Get immediate categorization results with detailed explanations about proper disposal methods and environmental impact.</p>
+                    </div>
+                    <div class="feature-card orange">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>100% Offline Mode</h3>
+                        <p>Works completely offline without any internet connection required. Perfect for rural areas, remote locations, and areas with limited connectivity.</p>
+                        <ul class="feature-list">
+                            <li>No data usage</li>
+                            <li>Works anywhere, anytime</li>
+                            <li>Privacy-focused - data stays on device</li>
+                            <li>Fast processing without network delays</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card red">
+                        <div class="feature-icon">⭐</div>
+                        <h3>User Friendly</h3>
+                        <p>Simple, intuitive interface designed for users of all ages and technical backgrounds, with multilingual support.</p>
+                    </div>
+                    <div class="feature-card teal">
+                        <div class="feature-icon">♻️</div>
+                        <h3>Educational Content</h3>
+                        <p>Learn about waste management best practices, environmental impact, and how to make a positive difference in your community.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- System Requirements -->
+            <section class="system-requirements">
+                <div class="card">
+                    <h2>System Requirements</h2>
+                    <div class="requirements-content">
+                        <h3>Minimum Requirements</h3>
+                        <ul>
+                            <li>Android 4.0 (API level 14) or higher</li>
+                            <li>512MB RAM</li>
+                            <li>50MB free storage space</li>
+                            <li>Camera access (for photo recognition)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Coming Soon -->
+            <section class="coming-soon">
+                <div class="card">
+                    <div class="coming-soon-icon">📱</div>
+                    <h2>More Platforms Coming Soon</h2>
+                    <p>We're working hard to bring SegregateAI to iOS and web platforms. Stay tuned for updates and be the first to know when they're available.</p>
+                    <div class="platform-badges">
+                        <span class="platform-badge">iOS App - In Development</span>
+                        <span class="platform-badge">Web App - Coming Soon</span>
+                        <span class="platform-badge">Desktop App - Planned</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">♻</div>
+                        <span>Segregate<span class="logo-accent">AI</span></span>
+                    </a>
+                    <p>Making waste segregation simple and accessible through AI technology.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="awareness.html">Awareness</a></li>
+                        <li><a href="app.html">Download App</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Team</h3>
+                    <ul>
+                        <li><a href="team.html">Meet the Team</a></li>
+                        <li>Vedansh Gupta</li>
+                        <li>Saatvik Sharma</li>
+                        <li>Ayush Tandon</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📧</a>
+                        <a href="#" class="social-link">🐙</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SegregateAI. All rights reserved. Built with ❤️ for a sustainable future.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

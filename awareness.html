@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awareness - SegregateAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">♻</div>
+                    <span>Segregate<span class="logo-accent">AI</span></span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="awareness.html" class="nav-link active">Awareness</a></li>
+                    <li><a href="app.html" class="nav-link">App</a></li>
+                    <li><a href="team.html" class="nav-link">Team</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="awareness.html" class="mobile-link">Awareness</a>
+        <a href="app.html" class="mobile-link">App</a>
+        <a href="team.html" class="mobile-link">Team</a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="page-content awareness-page">
+        <div class="container">
+            <!-- Header -->
+            <div class="page-header">
+                <div class="page-icon red">⚠️</div>
+                <h1>Waste Management Crisis</h1>
+                <p>Understanding the urgent need for proper waste segregation, especially in rural communities where awareness and resources are limited.</p>
+            </div>
+
+            <!-- Crisis Alert -->
+            <div class="alert alert-danger">
+                <div class="alert-icon">⚠️</div>
+                <div class="alert-content">
+                    <strong>Did you know?</strong> India generates over 62 million tonnes of waste annually, with only 60% being collected and even less being properly segregated. Rural areas are particularly affected with limited waste management infrastructure.
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <section class="statistics">
+                <h2 class="section-title">The Numbers Don't Lie</h2>
+                <div class="stats-grid">
+                    <div class="stat-card red">
+                        <div class="stat-number">62M</div>
+                        <p>Tonnes of waste generated annually in India</p>
+                    </div>
+                    <div class="stat-card orange">
+                        <div class="stat-number">40%</div>
+                        <p>Waste remains uncollected</p>
+                    </div>
+                    <div class="stat-card yellow">
+                        <div class="stat-number">15%</div>
+                        <p>Waste is properly segregated</p>
+                    </div>
+                    <div class="stat-card green">
+                        <div class="stat-number">70%</div>
+                        <p>Reduction possible with proper segregation</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rural Focus -->
+            <section class="rural-focus">
+                <div class="card">
+                    <h2 class="rural-title">🏠 Rural Areas: The Forgotten Challenge</h2>
+                    <div class="rural-content">
+                        <div class="challenges">
+                            <h3>Current Challenges</h3>
+                            <ul class="challenge-list">
+                                <li>Limited waste collection infrastructure</li>
+                                <li>Lack of awareness about proper segregation</li>
+                                <li>Open dumping and burning of waste</li>
+                                <li>Contamination of soil and water sources</li>
+                                <li>Health hazards for local communities</li>
+                            </ul>
+                        </div>
+                        <div class="solutions">
+                            <h3>How SegregateAI Helps</h3>
+                            <ul class="solution-list">
+                                <li>Easy-to-use mobile app requiring no technical expertise</li>
+                                <li>Works offline for areas with limited internet</li>
+                                <li>Visual recognition eliminates language barriers</li>
+                                <li>Educational content about waste management</li>
+                                <li>Promotes community-level awareness</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Impact Areas -->
+            <section class="impact-areas">
+                <h2 class="section-title">Areas of Impact</h2>
+                <div class="impact-grid">
+                    <div class="impact-card green">
+                        <div class="impact-icon">🌱</div>
+                        <h3>Environmental</h3>
+                        <ul>
+                            <li>Reduced landfill waste</li>
+                            <li>Lower greenhouse gas emissions</li>
+                            <li>Improved soil and water quality</li>
+                            <li>Enhanced recycling rates</li>
+                            <li>Biodiversity protection</li>
+                        </ul>
+                    </div>
+                    <div class="impact-card blue">
+                        <div class="impact-icon">❤️</div>
+                        <h3>Health</h3>
+                        <ul>
+                            <li>Reduced air pollution</li>
+                            <li>Cleaner water sources</li>
+                            <li>Lower disease transmission</li>
+                            <li>Improved sanitation</li>
+                            <li>Better quality of life</li>
+                        </ul>
+                    </div>
+                    <div class="impact-card purple">
+                        <div class="impact-icon">📈</div>
+                        <h3>Economic</h3>
+                        <ul>
+                            <li>Job creation in waste management</li>
+                            <li>Resource recovery and reuse</li>
+                            <li>Reduced cleanup costs</li>
+                            <li>Tourism and property value benefits</li>
+                            <li>Sustainable development</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="awareness-cta">
+                <div class="card cta-card">
+                    <div class="cta-icon">👥</div>
+                    <h2>Be Part of the Solution</h2>
+                    <p>Every small action counts. Start with proper waste segregation in your home, spread awareness in your community, and help us build a cleaner, healthier future for everyone.</p>
+                    <div class="cta-buttons">
+                        <a href="app.html" class="btn btn-primary">Download SegregateAI</a>
+                        <a href="team.html" class="btn btn-outline">Meet Our Team</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">♻</div>
+                        <span>Segregate<span class="logo-accent">AI</span></span>
+                    </a>
+                    <p>Making waste segregation simple and accessible through AI technology.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="awareness.html">Awareness</a></li>
+                        <li><a href="app.html">Download App</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Team</h3>
+                    <ul>
+                        <li><a href="team.html">Meet the Team</a></li>
+                        <li>Vedansh Gupta</li>
+                        <li>Saatvik Sharma</li>
+                        <li>Ayush Tandon</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📧</a>
+                        <a href="#" class="social-link">🐙</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SegregateAI. All rights reserved. Built with ❤️ for a sustainable future.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

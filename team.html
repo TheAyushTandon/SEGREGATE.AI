@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - SegregateAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">♻</div>
+                    <span>Segregate<span class="logo-accent">AI</span></span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="awareness.html" class="nav-link">Awareness</a></li>
+                    <li><a href="app.html" class="nav-link">App</a></li>
+                    <li><a href="team.html" class="nav-link active">Team</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="awareness.html" class="mobile-link">Awareness</a>
+        <a href="app.html" class="mobile-link">App</a>
+        <a href="team.html" class="mobile-link">Team</a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="page-content team-page">
+        <div class="container">
+            <!-- Header -->
+            <div class="page-header">
+                <div class="page-icon purple">👥</div>
+                <h1>Meet Our Team</h1>
+                <p>The passionate individuals behind SegregateAI, working together to create a sustainable future through innovative technology.</p>
+            </div>
+
+            <!-- Team Mission -->
+            <section class="team-mission">
+                <div class="card">
+                    <div class="mission-icon">💡</div>
+                    <h2>Our Mission</h2>
+                    <p>We are three passionate developers united by a common goal: to make waste segregation simple, accurate, and accessible to everyone. Our diverse backgrounds in AI, full-stack development, and data science allow us to tackle this environmental challenge from multiple angles.</p>
+                </div>
+            </section>
+
+            <!-- Team Members -->
+            <section class="team-members">
+                <div class="members-grid">
+                    <div class="member-card blue">
+                        <div class="member-icon">💻</div>
+                        <h3>Vedansh Gupta</h3>
+                        <div class="member-role">Full Stack Developer & AI</div>
+                        <p>Passionate about creating innovative solutions that combine cutting-edge AI technology with user-friendly interfaces to solve real-world environmental challenges.</p>
+                        <div class="skills">
+                            <h4>Key Skills</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Machine Learning</span>
+                                <span class="skill-tag">Computer Vision</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">Mobile Development</span>
+                            </div>
+                        </div>
+                        <div class="member-links">
+                            <a href="#" class="member-link">🐙 GitHub</a>
+                            <a href="#" class="member-link">💼 LinkedIn</a>
+                            <a href="#" class="member-link">📧 Email</a>
+                        </div>
+                    </div>
+
+                    <div class="member-card green">
+                        <div class="member-icon">💻</div>
+                        <h3>Saatvik Sharma</h3>
+                        <div class="member-role">Full Stack Developer & AI</div>
+                        <p>Dedicated to building robust applications and intelligent systems that make technology accessible to everyone, with a focus on environmental sustainability.</p>
+                        <div class="skills">
+                            <h4>Key Skills</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React Native</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">UI/UX Design</span>
+                                <span class="skill-tag">Database Design</span>
+                                <span class="skill-tag">API Development</span>
+                            </div>
+                        </div>
+                        <div class="member-links">
+                            <a href="#" class="member-link">🐙 GitHub</a>
+                            <a href="#" class="member-link">💼 LinkedIn</a>
+                            <a href="#" class="member-link">📧 Email</a>
+                        </div>
+                    </div>
+
+                    <div class="member-card purple">
+                        <div class="member-icon">💻</div>
+                        <h3>Ayush Tandon</h3>
+                        <div class="member-role">Full Stack Developer & AI</div>
+                        <p>Committed to leveraging data science and AI to create meaningful impact, with expertise in developing intelligent systems for environmental and social good.</p>
+                        <div class="skills">
+                            <h4>Key Skills</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Data Analysis</span>
+                                <span class="skill-tag">Product Strategy</span>
+                                <span class="skill-tag">Natural Language Processing</span>
+                                <span class="skill-tag">Research</span>
+                                <span class="skill-tag">Project Management</span>
+                            </div>
+                        </div>
+                        <div class="member-links">
+                            <a href="#" class="member-link">🐙 GitHub</a>
+                            <a href="#" class="member-link">💼 LinkedIn</a>
+                            <a href="#" class="member-link">📧 Email</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Values -->
+            <section class="team-values">
+                <h2 class="section-title">Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card green">
+                        <div class="value-icon">💡</div>
+                        <h3>Innovation</h3>
+                        <p>We believe in pushing the boundaries of technology to create solutions that make a real difference in the world.</p>
+                    </div>
+                    <div class="value-card blue">
+                        <div class="value-icon">👥</div>
+                        <h3>Accessibility</h3>
+                        <p>Technology should be accessible to everyone, regardless of their background, location, or technical expertise.</p>
+                    </div>
+                    <div class="value-card purple">
+                        <div class="value-icon">🧠</div>
+                        <h3>Sustainability</h3>
+                        <p>Every decision we make is guided by our commitment to environmental sustainability and social responsibility.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="team-contact">
+                <div class="card">
+                    <div class="contact-icon">📧</div>
+                    <h2>Get in Touch</h2>
+                    <p>Have questions about SegregateAI? Want to collaborate or provide feedback? We'd love to hear from you! Reach out to us and join our mission to create a cleaner, more sustainable world.</p>
+                    <a href="#" class="btn btn-primary">📧 Contact Us</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">♻</div>
+                        <span>Segregate<span class="logo-accent">AI</span></span>
+                    </a>
+                    <p>Making waste segregation simple and accessible through AI technology.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="awareness.html">Awareness</a></li>
+                        <li><a href="app.html">Download App</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Team</h3>
+                    <ul>
+                        <li><a href="team.html">Meet the Team</a></li>
+                        <li>Vedansh Gupta</li>
+                        <li>Saatvik Sharma</li>
+                        <li>Ayush Tandon</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📧</a>
+                        <a href="#" class="social-link">🐙</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SegregateAI. All rights reserved. Built with ❤️ for a sustainable future.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
